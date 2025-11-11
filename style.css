@@ -1,0 +1,18 @@
+body {
+    /* background-color: #dbdbd9; */
+    font-family: "Noto Serif JP", serif;
+    color: #262625;
+    background-color: #e0e0de;
+
+    text-align: center;
+
+    margin: auto;
+}
+
+#name {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5em;
+}
