@@ -1,16 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 body {
     /* background-color: #dbdbd9; */
-    font-family: "Noto Serif JP", serif;
+    font-family: "Playfair Display", "Noto Serif JP", serif;
+    font-weight: 400;
     color: #262625;
     background-color: #e0e0de;
 
+    margin: 0 !important;
     text-align: center;
-
-    margin: auto;
 }
 
 #name {
-    font-size: 3rem;
+    font-size: 7em;
+    font-family: "Manufacturing Consent", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #name {
+        font-size: 3em;
+    }
 }
 
 p {
