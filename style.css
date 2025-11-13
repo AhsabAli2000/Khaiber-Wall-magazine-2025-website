@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 body {
-    /* background-color: #dbdbd9; */
     font-family: "Playfair Display", "Noto Serif JP", serif;
     font-weight: 400;
+
     color: #262625;
     background-color: #e0e0de;
 
-    margin: 0 !important;
     text-align: center;
 }
 
@@ -16,6 +15,7 @@ body {
     font-family: "Manufacturing Consent", system-ui;
     font-weight: 400;
     font-style: normal;
+
     margin: 0;
 }
 
@@ -25,6 +25,46 @@ body {
     }
 }
 
-p {
+p{
     font-size: 1.5em;
+    margin: 0;
+}
+
+li {
+    margin: 0.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-box:hover {
+    background-color: white;
+}
+
+.article-name {
+    
+    font-size: 30px;
+    text-align: left;
+    padding: 5px;
+}
+
+.author {
+    text-align: end;
+    padding: 5px;
+    display: flex;
+
+}
+
+.name-box {
+    border: 0.5px solid #262625;
+    border-radius: 20px;
+    width: 50vw;
+    min-height: 30vh;
+    background-color: #ebebe9;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.art-image {
+    height: 30vh;
+    
 }
